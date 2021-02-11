@@ -1,0 +1,37 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-image: url(../img/gato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#pantalla {
+    background-image: url(../img/table.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#boton {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3px;
+    border: solid 2px black;
+}
+
+#boton:hover {
+    background-color: lightcoral;
+    font-size: 22px;
+}
